@@ -26,7 +26,7 @@ class TableList extends Component {
  <input type="text" name="email" /><br /> <br />
        
    Phone Number <br />
- <input type="text" name="Phone Number" />  <br /> <br /> <br />
+ <input type="text" name="Phone Number" />  <br /> <br />
  
        
        
@@ -59,8 +59,7 @@ class TableList extends Component {
          </Col>
      
 </FormGroup>
-       
-       <br />  
+         
        
        
        
