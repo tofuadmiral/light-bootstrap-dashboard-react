@@ -60,6 +60,8 @@ class Typography extends Component {
                   <option value="Kitchener">Kitchener</option>
               </FormControl>
             </FormGroup>
+
+            <button>Submit</button>
       </center></form>
       
       
