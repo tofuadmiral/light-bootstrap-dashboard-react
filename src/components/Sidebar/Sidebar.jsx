@@ -3,8 +3,8 @@ import { NavLink } from "react-router-dom";
 
 import HeaderLinks from "../Header/HeaderLinks.jsx";
 
-import imagine from "assets/img/sidebar-3.jpg";
-import logo from "assets/img/reactlogo.png";
+import imagine from "assets/img/bidu.jpg";
+import logo from "assets/img/pickup.png";
 
 import dashboardRoutes from "routes/dashboard.jsx";
 
@@ -50,7 +50,7 @@ class Sidebar extends Component {
             href="https://www.creative-tim.com"
             className="simple-text logo-normal"
           >
-            Creative Tim
+            Pick Up
           </a>
         </div>
         <div className="sidebar-wrapper">

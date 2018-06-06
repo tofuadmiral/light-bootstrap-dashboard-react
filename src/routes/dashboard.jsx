@@ -10,8 +10,8 @@ import Upgrade from "views/Upgrade/Upgrade";
 const dashboardRoutes = [
   {
     path: "/dashboard",
-    name: "Dashboard",
-    icon: "pe-7s-graph",
+    name: "Home",
+    icon: "pe-7s-home",
     component: Dashboard
   },
   {
@@ -22,31 +22,25 @@ const dashboardRoutes = [
   },
   {
     path: "/table",
-    name: "Table List",
-    icon: "pe-7s-note2",
+    name: "Find A Ride",
+    icon: "pe-7s-car",
     component: TableList
   },
   {
     path: "/typography",
-    name: "Typography",
-    icon: "pe-7s-news-paper",
+    name: "Post A Ride",
+    icon: "pe-7s-speaker",
     component: Typography
   },
-  { path: "/icons", name: "Icons", icon: "pe-7s-science", component: Icons },
-  { path: "/maps", name: "Maps", icon: "pe-7s-map-marker", component: Maps },
+  { path: "/icons", name: "Rewards", icon: "pe-7s-star", component: Icons },
+  { path: "/maps", name: "Messages", icon: "pe-7s-users", component: Maps },
   {
     path: "/notifications",
     name: "Notifications",
     icon: "pe-7s-bell",
     component: Notifications
   },
-  {
-    upgrade: true,
-    path: "/upgrade",
-    name: "Upgrade to PRO",
-    icon: "pe-7s-rocket",
-    component: Upgrade
-  },
+  
   { redirect: true, path: "/", to: "/dashboard", name: "Dashboard" }
 ];
 
