@@ -33,13 +33,7 @@ const dashboardRoutes = [
     component: Typography
   },
   { path: "/icons", name: "Rewards", icon: "pe-7s-star", component: Icons },
-  { path: "/maps", name: "Messages", icon: "pe-7s-users", component: Maps },
-  {
-    path: "/notifications",
-    name: "Notifications",
-    icon: "pe-7s-bell",
-    component: Notifications
-  },
+  
   
   { redirect: true, path: "/", to: "/dashboard", name: "Dashboard" }
 ];

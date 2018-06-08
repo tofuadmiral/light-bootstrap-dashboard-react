@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 import HeaderLinks from "../Header/HeaderLinks.jsx";
 
-import imagine from "assets/img/bidu.jpg";
+import imagine from "assets/img/automobiles-automotives-black-and-white-70912.jpg";
 import logo from "assets/img/pickup.png";
 
 import dashboardRoutes from "routes/dashboard.jsx";
