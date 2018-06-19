@@ -39,7 +39,19 @@ class HeaderLinks extends Component {
           <NavItem eventKey={1} href="#">
             Account
           </NavItem>
-          <NavDropdown
+          
+          <NavItem eventKey={3} href="#">
+            Log out
+          </NavItem>
+        </Nav>
+      </div>
+    );
+  }
+}
+
+export default HeaderLinks;
+
+/*<NavDropdown
             eventKey={2}
             title="Dropdown"
             id="basic-nav-dropdown-right"
@@ -52,13 +64,4 @@ class HeaderLinks extends Component {
             <MenuItem divider />
             <MenuItem eventKey={2.5}>Separated link</MenuItem>
           </NavDropdown>
-          <NavItem eventKey={3} href="#">
-            Log out
-          </NavItem>
-        </Nav>
-      </div>
-    );
-  }
-}
-
-export default HeaderLinks;
+*/

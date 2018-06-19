@@ -7,14 +7,14 @@ import Card from "components/Card/Card.jsx";
 class Typography extends Component {
   render() {
     return (
-      <div className="content"> <center><h1>Complete the Following Form to Post a Ride</h1> </center>
+      <div className="content"> <center><h2>Complete the Following Form to Post a Ride</h2> </center>
       
-      <form><center>
+      <form><center><br />
         First Name<br />
         <input type="text" name = "firstname"/><br /><br />
         Last Name<br />
         <input type = "text" name="lastname"/><br /><br/>
-        Email Adress<br/>
+        Email Address<br/>
         <input type = "text" name="email"/><br /><br/>
         Phone Number<br />
         <input type = "text" name="phonenumber"/><br/><br/>
@@ -41,7 +41,7 @@ class Typography extends Component {
 
 
         <FormGroup controlId="formControlsSelect">
-                Dropping Off
+                Destination
               <FormControl componentClass="select">
                   <option value="McMaster University">McMaster University</option>
                   <option value="Richmond Hill">Richmond Hill</option>
@@ -61,7 +61,7 @@ class Typography extends Component {
               </FormControl>
             </FormGroup>
 
-            <button>Submit</button>
+            <br/><button>Submit</button>
       </center></form>
       
       

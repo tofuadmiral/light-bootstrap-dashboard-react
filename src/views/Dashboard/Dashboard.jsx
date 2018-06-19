@@ -104,8 +104,8 @@ class Dashboard extends Component {
               <UserCard
                 bgImage="https://ununsplash.imgix.net/photo-1431578500526-4d9613015464?fit=crop&fm=jpg&h=300&q=75&w=400"
                 avatar={avatar}
-                name="Taki Wong"
-                userName="taki24"
+                name="Christian Mavely"
+                userName="swaggyC"
                 description={
                   <span>
                    
@@ -135,8 +135,8 @@ class Dashboard extends Component {
                    <UserCard
                 bgImage="https://ununsplash.imgix.net/photo-1431578500526-4d9613015464?fit=crop&fm=jpg&h=300&q=75&w=400"
                 avatar={avatar}
-                name="Fuad Ali"
-                userName="Fuad24"
+                name="Christian Mavely"
+                userName="swaggyC"
                 description={
                   <span>
                    
@@ -166,8 +166,8 @@ class Dashboard extends Component {
                    <UserCard
                 bgImage="https://ununsplash.imgix.net/photo-1431578500526-4d9613015464?fit=crop&fm=jpg&h=300&q=75&w=400"
                 avatar={avatar}
-                name="Peter Zhang"
-                userName="Peter24"
+                name="Christian Mavely"
+                userName="swaggyC"
                 description={
                   <span>
                    

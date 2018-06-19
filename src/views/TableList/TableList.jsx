@@ -17,12 +17,12 @@ class TableList extends Component {
     
    <form>
        <br /> 
-  First name<br />
+  First Name<br />
   <input type="text" name="firstname" /><br /><br />
-  Last name<br />
+  Last Name<br />
   <input type="text" name="lastname" /><br /> <br />
     
-  Email <br />
+  Email Address<br />
  <input type="text" name="email" /><br /> <br />
        
    Phone Number <br />
@@ -36,7 +36,7 @@ class TableList extends Component {
 
     
 <Col sm="13" md={{ size: 6, offset: 3 }}>   
-                Starting From
+                Pickup Location
               
            
               <FormControl componentClass="select">
